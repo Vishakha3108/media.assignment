@@ -1,0 +1,86 @@
+Q.1 List out the features of HTML5.
+Ans. All HTML documents have a doctype declaration.Doctype is not an HTML tag.Using the doctype declaration browsers,understand what document type to expect. 
+In previous of HTML,the syntex to specify the doctype was long and hard to remember.But the HTML5 doctype is a lot easier to remember,and it is case-insensitiv 
+as well.HTML5 offers a lot more new tags and support elements such as from and semantic features.Here are list of some HTML5 features- 
+1. New Semantic Tags Header and footer- The header at the top of the page and the footer appears at the bottom.The header mainly contains header element,author 
+information, icons,or logos,while the footer contains copyright information,back-to-top links,etc. 
+2. Nav Tag- The nav tag is used for declaring the navigation section on a web page.Only the major block of links should be put in the nav tag to let the browser 
+know those are not just regular links They are for the navigation section. 
+3. Placehplder Attribute- The placeholder attributes intends to give the user a hint about the input field or text area.The text we write in the placeholder will 
+be displayed in the input field before the user enters a value.This html5 feature is helpful for the user interface.  
+4. Canvas- The canvas tag is newly added to the html5.It is a rectangular area that is used to draw texts,boxes,gradients,and add images.By default there is no border 
+and text included in this tag. 
+5. Video and Audio features- New HTML5 has additions:audio and Video tags.This helps the devloper to include video and audio files in their pages. In the video element 
+the HTML may be styled using CSS The borders,opacity,gradients,transformition,animation,and reflections may be changed.Now also,YouTube declares video embedding code 
+in their videos and other websites.HTML5 also lunched a new audio tag that embeds an audio file into a web page. 
+6.Required Attribute-Forms in HTML have required attributes,Which specify to user whether a particular input is required or not.
+7.Adaptability-Science its inception,HTML5 has played a significant role in providing the most attractive accessibility feature to the website.With its usage,the function 
+of the website is streamlined. 
+8.Conclusion-HTML5 is the latest and most advanced web technology that takes the web industry by strom. 
+however this is the list of the best features of HTML5 there are many more feature that also highly benificial. 
+
+Q.2 What are HTML Entities?List out 5 commonly used HTML entities. 
+Ans. Entity- An HTML entitty is a piece of text that begins with an ampersand(&)and ends with a semicolon(;).Entities are frequently used to display reserved characters 
+and invisible characters you can also use them in place of other characters that are difficult to type with a standard keyboard. 
+Here are some example of HTML entities-
+     Number   Entity    Description 
+     &#169;   &copy;    COPYRIGHT SIGN 
+     &#174;   &reg;     REGISTERED SIGN 
+     &#8364;  &euro;    EURO SIGN 
+     &#8482;  &trade;   TRADEMARK 
+     &#163;   &pound;   POUNND 
+     
+Q.3 What is web accessibility? List some of the assistive devices which play major role in providing accessibility.
+Ans. Web accessibility means that websites tools and technologies are disgned and devloped so that people with disabilities can use them. Accessibility is the practice of 
+making your websites as usable by many users as possible. It helps people with disability and those who use mobile or slow connection.Accessibility is the inclusive practice 
+of ensuring there are no barriers that prevent interaction with or access to websites on the world wide web by people with physical disabilites,and situational disabilities. 
+Their are many assistive devices that plays a major role in providing accessibility here are some of them - 
+1.Audio description-narration that describred important visual details in a video these narration can be during natural pauses in the audio,or in separate audio files or audio 
+tracks in multimedia. 
+2.Customized fonts and colors-changing the font types,sizes,colors,and spacing to make text easier to read.Customization involves browser setting and for more advanced users,cascading 
+style sheet to override the default appearance of web content. 
+3.Document outline-represantation of the content the only shows the heading and relevant structures to help provide orientation and an overview of the contents. 
+4.Progressive disclosure-design technique that involves showing only the least amount of information or function necessary for a given task or purpose to avoid overloading the user with 
+information. 
+5.Screen magnification- changing the setting of the web browser,operating system or screen to enlarge or reduce text size and images. Some people use magnification lenses,binoculars,or other 
+visual aids,and software such as screen magnifiers to better see the content. 
+6.Sign language- a visual from of communication that is primarily used by people who are deaf.It involves hand,body,and facial expression to transmit words,phrase,and tone.For instance,the 
+intensity of a gesture could indicate the mood or emphasis of particular information.
+7.Symbols- icons that represant words or concepts used instead of text by some people with impaired communication, including people with difficulties to read or write. 
+
+Q.4 List any 3 ways which help us in improving the accessibility of HTML.
+Ans.
+There are many ways to improve accessibility here are three one of them-
+1.Using clear language- The language you use can also affect accessibility. In general, you should use clear language that in not overly comlpex and dosen't use unnecessary jargon or slang terms. This not only 
+benifites people with cognitive or other disabilities;it benifits readers for whom the text is not written in their first language,younger people....,everyone,in fact! Apart from this you should try to avoid using 
+language and characters that don't get read out clearly by the screen reader. 
+2.Page layout- In the bad old days, people used to create page layouts using HTML tables- using different table cells to contain the header,footer,sidebar,main content colum,etc. This is not a good idea because a screen 
+reader will likely give out confusing readouts,especially if the layout is complex has many nested tables. Table layout are a relic of the past they made sense back when CSS support was not widespread in browsers. 
+3.UI controls- By UI controles,we mean the main parts of web document that users interact with-most commonly buttons,links and form control.In this section, We'll look at the basic accessibility concerns to be aware of when 
+creating such controls.Later articles on WAI-ARIA and multimedia will look at other aspects of UI accessibility. 
+
+Q.5 Write a short note on the tab index.
+Ans.The tabindex global attribute allows devlopers to make HTML elements focusable,allow or prevent them from being sequentially focusable and determine their relative ordering for sequential focus navigation. It accepts an integer 
+as a value,with different results depending on the integer's value:
+1. A negative value-means that the element is not reachable via sequential keyboard navigation.
+2.tabindex="0"-means that the element should be focusable in sequential keyboard navigation,after any positive tabindex values.The focuse navigation order of these elements is defined by their order in the document source. 
+3.A positive value-means the element should be focusable in sequential keyboard navigation with its order defined by the value of the number. 
+4.If tabindex attribute is included with no value set,whether the element is focusable is determined by the user agent.  
+
+Q.6 List any 5 Semantic tags in HTML along with their descriptions.
+Ans.Sementics in HTML-
+1.<artical>:The Artical Content element represents a self-contained composition in a document,page,application or site which is intended to be independently distributed or reusable.Eg-a forum post,a magazine or newspaper artical,or a blog entry, 
+a product cart,a user-submitted comment etc.This element only includes the global attributes.
+2.<aside>:The Aside elements represents a portion of a document whose content is only indeirectly related to the document's main content.Aside are frequently presented as sidebars or call-out boxes.This element only includes the global attributes. 
+We not usa the aside alement to tag paenthesized text,as this kind of text is considered part of the main flow. 
+3.<details>:The Details disclosure element creates a disclosure widget in which information is visible only when the widget is taggled into an "open" state. A summary or label must be provided using the summary element. A disclosure widget is typically 
+presanted onscreen using a small triangle which rotates to indicate open/close status,with a label next to the triangle.The contents of the summary element are used as the label for the disclosure widget. 
+4.<footer>:footer HTML elements represants a footer for its nearest ancestor sectioning content or sectioning root element.A footer typically containes information about the author of the section,copyright data or links to related documents. 
+5.<nav>:The navigation Section element represants a section of a page whose purpose is to provide navigation links,either within the current document or to other documents.Common examples of navigation sections are menus,tables of contents and indexes. 
+
+Q.7 What are the benefits of using semantic tags in our webpage?
+Ans.A semantic element clearly describes its meaning to both the browser and the developer.By using semantic tags in our code, we can provide additional information about that document by defining the layout and section of the webpage.Semantic elements are of 
+great help to people using screen readers.The additional information providing by semantic tags help screen readers understand the content better and help them to determine the different section within a page more efficiently. 
+Sementic tags help developer write consistent code.Sementic HTML tags are define the meaning of the content they contain.The sementic HTML tag help the search engines and other user devices to determine the importance and context of web pagea.Webpages made with sementic 
+tags are much easierer to read.It has greater accessibility.It offers user experience.Sementics make HTML more comprehensible by better defining the different section and layout of the web pages.
+
